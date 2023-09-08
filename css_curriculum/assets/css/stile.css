@@ -1,0 +1,142 @@
+/* IMPOSTAZIONI GENERALI */
+
+
+@media only screen and (min-width: 450px){
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-family: 'Roboto Flex', sans-serif;
+            line-height: 1.5em;
+      
+    }
+
+  
+    
+}
+
+/* HEADER */
+header{
+    padding: 0.5em;
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+header h1{
+    color: white;
+    padding: 0.5em;
+}
+
+span{
+   
+    color: aqua;
+    background-color: white;
+}
+header h2{
+    font-weight: bold;
+    color: black;
+}
+ 
+
+/* MAIN */
+main{
+    padding: 3em;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   border-bottom: 2px solid;
+   border-top: 2px solid;
+   border-color: rgb(1, 109, 109);
+
+    
+}
+
+/* ELEMENTI NEL MAIN */
+
+
+
+h2{ 
+    padding: 1em;
+    font-weight: 600;
+    color: rgb(1, 109, 109) ;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    padding: 1em;
+    font-weight: bold;
+}
+
+
+figure{
+    text-align: center;
+}
+figure img{
+    
+    margin: 2em;
+    padding: 1em;
+    border: 2px dotted
+   
+}
+figure figcaption{
+    text-align: center;
+    padding: 1em;
+     
+    
+}
+
+b{
+    font-weight: 600;
+}
+
+a{color: red;}
+
+blockquote{
+    text-align: center;
+    padding: 3em;
+    background-color: grey;
+    border-radius: 5%;
+}
+
+strong{
+    color: aqua;
+}
+
+main div{
+    padding: 1em;
+    border-bottom: 2px dotted;
+}
+
+mark{background-color: aqua;}
+
+ul,li{padding: 0.5em;}
+
+dt{
+    font-weight: bold;
+}
+/* FOOTER */
+
+footer{
+    line-height: 1.5em;
+   
+   text-align: center ;
+   background-color: grey ;
+   
+}
+
+small{
+    color: aliceblue;
+}
+
+footer p{
+    color: lightgrey;
+}
+kbd{
+    color: yellow;
+}
